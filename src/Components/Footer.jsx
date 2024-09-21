@@ -23,12 +23,12 @@ const Footer = () => {
   return (
     <>
         <div className="mb-8 mt-20 ">
-            <div className="flex items-center justify-center">
+            <diinv className="flex items-center justify-center">
                 <motion.figure initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1.5, delay:1}}  > 
                     <img src={logo} alt="" width={100} className='rounded mb-2'  />
                     <div className="mb-10 h-1 w-12 bg-yellow-400"></div>
                 </motion.figure>
-            </div>
+            </diinv>
             <div className="flex items-center justify-center gap-8">
                 {
                     socialMediaLink.map((links,index)=>(
