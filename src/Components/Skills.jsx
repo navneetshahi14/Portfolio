@@ -1,6 +1,6 @@
 import React from 'react'
 import Skill from '../assets/skill'
-import {motion} from 'framer-motion'
+import {delay, motion} from 'framer-motion'
 
 const containerVarient ={
     hidden:{opacity:0,y:20},
@@ -8,7 +8,7 @@ const containerVarient ={
         opacity:1,
         y:0,
         transition:{
-            duration:1,
+            duration:0.5,
             staggerChildren:true
         }
     }
@@ -17,7 +17,7 @@ const containerVarient ={
 const itemsVarients ={
     hidden:{opacity:0,x:-20},
     visible:{
-        opacity:1,x:0,transition:{duration:0.5}
+        opacity:1,x:0,transition:{duration:0.5,delay:1}
     }
 }
 

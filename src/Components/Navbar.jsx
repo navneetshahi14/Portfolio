@@ -90,7 +90,7 @@ const Navbar = () => {
                         <ul className="ml-4 mt-4 flex flex-col gap-4 backdrop-blur-md">
                             {NAVGATIONLINK.map((items,index)=>(
                                 <li key={index}>
-                                    <a href={items.href} onClick={(e)=>toggleMobileMenu(e,items.href)} className="block w-full text-xl font-semibold ">{items.label}</a>
+                                    <a href={items.href} onClick={(e)=>handleLinkClick(e,items.href)} className="block w-full text-xl font-semibold ">{items.label}</a>
                                 </li>
                             ))}
                         </ul>
