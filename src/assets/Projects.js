@@ -9,7 +9,7 @@ const Projects = [
         title:"Chat-Application",
         link:"https://github.com/navneetshahi14/ChatApplication.git",
         description:"This real-time chat application allows users to engage in seamless one-to-one and group chats. Built with ReactJS, Node.js, Express, and MongoDB, it offers a fast and intuitive user experience.",
-        img:"https://private-user-images.githubusercontent.com/138277449/369597241-2e713dd8-3154-4977-bc61-2d0ccb8abfb8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjY4OTY2MDQsIm5iZiI6MTcyNjg5NjMwNCwicGF0aCI6Ii8xMzgyNzc0NDkvMzY5NTk3MjQxLTJlNzEzZGQ4LTMxNTQtNDk3Ny1iYzYxLTJkMGNjYjhhYmZiOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTIxJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyMVQwNTI1MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1kZGZlZmZlYzk5ZTU5MmY5NGVjOGYzNGIwZTIwNWU3OGYwNGQ5MDAzN2QxMjVjYjhjZTk0OTFhZWZjMTBlYmU2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.TXOpgFZbNGoL7Vrlp8yGqGtfg9S__MnJgYjY4ZKKV30"
+        img:"https://res.cloudinary.com/dfr6qnt6a/image/upload/v1726911661/scwxtlvdb8ethcsivl3y.png"
     },
     {
         title:"Attendance and Communication System",
