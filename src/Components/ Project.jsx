@@ -1,4 +1,3 @@
-import React from 'react'
 import Projects from '../assets/Projects'
 import Carts from './Carts'
 import {motion} from 'framer-motion'
@@ -32,7 +31,7 @@ const  Project = () => {
     <>
         <div className="" id="projects">
             <motion.h2 initial="hidden" whileInView={"visible"} variants={containerVarient} viewport={{once:true}}  className="mt-20 text-center text-4xl font-semibold">Projects</motion.h2>
-            <motion.div initial="hidden" whileInView={"visible"} variants={containerVarient} viewport={{once:true}}  className="flex flex-wrap justify-center py-8">
+            <motion.div initial="hidden" whileInView={"visible"} variants={containerVarient} viewport={{once:true}}  className="flex flex-wrap px-10 py-8">
                 {
                     Projects.map((pro ,index)=>(
                         <motion.div variants={itemVariants}  key={index}>

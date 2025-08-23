@@ -17,6 +17,12 @@ const Projects = [
         description:"This is a full-stack Attendance and Communication System for Admin, Teacher, and Student panels. The project is developed using EJS for the frontend, NodeJS for the backend, MongoDB as the database, and Express as the web framework.",
         img:"https://camo.githubusercontent.com/7ea06c395370d5e813f20bd0dd838ea0f367ba581e576c35cf9a7eec50066875/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64667236716e7436612f696d6167652f75706c6f61642f76313732353731343234362f666d65356f6e6f6b61386f396c653532353864632e706e67"
     },
+    {
+        title:"SkillRoute-AI Path Generator",
+        link:"https://github.com/navneetshahi14/AILearningPathGenerator.git",
+        description:"I just built the AI Learning Path Generator – a smart assistant that creates personalized AI learning journeys based on your goals.Built a full-stack AI platform that generates personalized tech learning paths based on user goals and experience level.Integrated OpenAI, HuggingFace, and LangChain APIs to dynamically create step-wise content and topic breakdowns. Developed modular REST APIs with NestJS and stored user data and preferences in MongoDB. Implemented a responsive UI using Next.js and Tailwind CSS with features like PDF export and progress tracking.",
+        img:"/project/P4.png"
+    },
 ]
 
 export default Projects

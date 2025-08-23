@@ -1,4 +1,4 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
 
 const Carts = ({image,title,link,description}) => {
   return (
@@ -9,7 +9,9 @@ const Carts = ({image,title,link,description}) => {
                     <img src={image} alt="" className="w-full" />
                     <div className='flex flex-col justify-between p-4 text-white'>
                         <h2 className='mb-2 text-2xl font-bold'>{title}</h2>
-                        <p className="mb-4 text-sm font-medium">{description}</p>
+                        <p className="mb-4 text-sm font-medium">
+                        {description?.slice(0, 120)}{description?.length > 120 && "..."}
+                        </p>
                     </div>
                 </div>
             </a>
