@@ -1,13 +1,13 @@
 const Projects = [
     {
         title:"Ecommerce-Application",
-        link:"https://github.com/navneetshahi14/Ecommerce-FullStack-Project.git",
+        link:"https://github.com/navneetshahi14/ecommercefullstack.git",
         description:"I've recently developed a comprehensive eCommerce website with both an Admin Panel and a User Panel. This project showcases my skills in ReactJS, NodeJS, Express, and MongoDB, with an integrated payment gateway for a seamless shopping experience! Admin Panel for product management, user oversight, and real-time analytics. User Panel with easy navigation, shopping cart, and secure payments Full-stack development using modern tech to deliver performance and scalability",
         img:"https://camo.githubusercontent.com/bf2b4a61ff4956a6088c0d36689eabc879707dcaabb3fd5510c0132a32a8b5d0/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64667236716e7436612f696d6167652f75706c6f61642f76313732353731303138352f7162726c65616b6d7934706b79797a61636e716e2e706e67"
     },
     {
         title:"Chat-Application",
-        link:"https://github.com/navneetshahi14/ChatApplication.git",
+        link:"https://github.com/navneetshahi14/chatApp.git",
         description:"This real-time chat application allows users to engage in seamless one-to-one and group chats. Built with ReactJS, Node.js, Express, and MongoDB, it offers a fast and intuitive user experience.",
         img:"https://res.cloudinary.com/dfr6qnt6a/image/upload/v1726911661/scwxtlvdb8ethcsivl3y.png"
     },
