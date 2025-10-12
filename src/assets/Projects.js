@@ -23,6 +23,12 @@ const Projects = [
         description:"I just built the AI Learning Path Generator – a smart assistant that creates personalized AI learning journeys based on your goals.Built a full-stack AI platform that generates personalized tech learning paths based on user goals and experience level.Integrated OpenAI, HuggingFace, and LangChain APIs to dynamically create step-wise content and topic breakdowns. Developed modular REST APIs with NestJS and stored user data and preferences in MongoDB. Implemented a responsive UI using Next.js and Tailwind CSS with features like PDF export and progress tracking.",
         img:"/project/P4.png"
     },
+    {
+        title:"ElevateX - Learning management system",
+        link:"https://github.com/navneetshahi14/LearningManagementSystem.git",
+        description:"I developed a full-stack Learning Management System (LMS) that provides a complete e-learning experience. Instructors can create courses, upload video lectures, add quizzes, and manage students. Students can enroll in courses, watch lessons, attempt quizzes, and track their progress through a personalized dashboard. The system also includes authentication, role-based access control, and real-time progress analytics.",
+        img:"/project/ElevateXFrontendPage.png"
+    }
 ]
 
 export default Projects
