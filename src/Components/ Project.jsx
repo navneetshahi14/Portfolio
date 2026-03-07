@@ -29,12 +29,12 @@ const itemVariants ={
 const  Project = () => {
   return (
     <>
-        <div className="" id="projects">
+        <div className="flex flex-col items-center justify-center" id="projects">
             <motion.h2 initial="hidden" whileInView={"visible"} variants={containerVarient} viewport={{once:true}}  className="mt-20 text-center text-4xl font-semibold">Projects</motion.h2>
-            <motion.div initial="hidden" whileInView={"visible"} variants={containerVarient} viewport={{once:true}}  className="flex flex-wrap px-10 py-8">
+            <motion.div initial="hidden" whileInView={"visible"} variants={containerVarient} viewport={{once:true}}  className="flex flex-wrap px-10 py-8 justify-center">
                 {
                     Projects.map((pro ,index)=>(
-                        <motion.div variants={itemVariants}  key={index}>
+                        <motion.div variants={itemVariants} key={index}>
                             <Carts title={pro.title} image={pro.img} link={pro.link} description={pro.description} />
                         </motion.div>
                     ))
