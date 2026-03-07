@@ -32,7 +32,7 @@ const Internship = () => {
     <>
       <div
         className="flex flex-col items-center justify-center"
-        id="internship"
+        id="experience"
       >
         <motion.h2
           initial="hidden"
