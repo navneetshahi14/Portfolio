@@ -1,5 +1,4 @@
-import React from "react";
-import two from "../assets/profile/11.jpg";
+import two from "../assets/11.jpg";
 import { motion } from "framer-motion";
 
 // https://images.unsplash.com/photo-1549778399-f94fd24d4697?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D

@@ -4,7 +4,7 @@ const Carts = ({image,title,link,description}) => {
   return (
     <>
         <div className="">
-            <a href={link} className='m-2 lg:m-4 block max-w-sm overflow-hidden rounded-lg'>
+            <a href={link} target="_blank" className='m-2 lg:m-4 block max-w-sm overflow-hidden rounded-lg'>
                 <div className="relative">
                     <img src={image} alt="" className="w-full" />
                     <div className='flex flex-col justify-between p-4 text-white'>

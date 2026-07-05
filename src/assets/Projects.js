@@ -28,6 +28,12 @@ const Projects = [
         link:"https://github.com/navneetshahi14/LearningManagementSystem.git",
         description:"I developed a full-stack Learning Management System (LMS) that provides a complete e-learning experience. Instructors can create courses, upload video lectures, add quizzes, and manage students. Students can enroll in courses, watch lessons, attempt quizzes, and track their progress through a personalized dashboard. The system also includes authentication, role-based access control, and real-time progress analytics.",
         img:"/project/ElevateXFrontendPage.png"
+    },
+    {
+        title:"RepoMind - Talk to your github",
+        link:"https://github.com/navneetshahi14/RepoMind.git",
+        description:"RepoMind is an AI knowledge assistant that understands codebases and documents, enabling natural language conversations through Retrieval-Augmented Generation (RAG).",
+        img:"/project/repomind.png"
     }
 ]
 
